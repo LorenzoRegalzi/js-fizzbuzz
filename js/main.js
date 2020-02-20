@@ -4,13 +4,18 @@
 //
 // var risultato = numero% paolo
 // console.log(risultato);
-
+    var nomi= ['buzz', 'fez', 'buzzfeez']
 
 
   for (var i = 1; i <= 100; i++) {
-     console.log(i);
-//     var tre = i % 3;
-//     if (tre) {
-//         console.log('mario');
-//     }
+
+     var mario= i % 3;
+     
+    if (mario== 1) {
+        console.log(i);
+    } else if (mario == 2) {
+        console.log(i);
+    } else {
+        console.log('buzz');
+    }
  }
